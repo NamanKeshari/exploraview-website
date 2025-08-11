@@ -45,17 +45,24 @@ export default function AboutPage() {
       image: "/ram-lal-keshari.png",
     },
     {
-      name: "Naman Keshari",
-      role: "Chief Technical Officer",
-      experience: "5+ years in software development and fintech solutions",
-      image: "/naman-keshari.png",
+      name: "Manjula Keshari",
+      role: "Operations Head",
+      experience:
+        "20+ years in operational excellence and strategic management",
+      image: "/manjula-keshari.png",
     },
-    {
-      name: "Arsh Keshari",
-      role: "Business Head",
-      experience: "4+ years in strategic consulting and business development",
-      image: "/arsh-keshari.png",
-    },
+    // {
+    //   name: "Naman Keshari",
+    //   role: "Chief Technical Officer",
+    //   experience: "5+ years in software development and fintech solutions",
+    //   image: "/naman-keshari.png",
+    // },
+    // {
+    //   name: "Arsh Keshari",
+    //   role: "Business Head",
+    //   experience: "4+ years in strategic consulting and business development",
+    //   image: "/arsh-keshari.png",
+    // },
   ];
 
   return (
