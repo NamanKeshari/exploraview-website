@@ -299,7 +299,6 @@ export default function FacilitiesPage() {
             <div className="bg-blue-800/50 rounded-lg p-6">
               <h3 className="font-semibold text-yellow-400 mb-2">WhatsApp</h3>
               <p className="text-lg">7428320045</p>
-              <p className="text-lg">9818524145</p>
             </div>
             <div className="bg-blue-800/50 rounded-lg p-6">
               <h3 className="font-semibold text-yellow-400 mb-2">Email</h3>
