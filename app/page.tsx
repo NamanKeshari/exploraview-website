@@ -2,6 +2,35 @@ import Link from "next/link";
 import { ArrowRight, TrendingUp, Shield, Users, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Corporate Finance Consultancy & Wealth Enhancement Services",
+  description:
+    "Exploraview offers professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, and comprehensive financial planning solutions.",
+  keywords: [
+    "corporate finance consultancy",
+    "wealth enhancement services",
+    "corporate loans India",
+    "industrial project loans",
+    "machinery financing",
+    "business loan consultancy",
+    "financial planning services",
+    "loan against property",
+    "cash credit facility",
+    "overdraft services",
+  ],
+  openGraph: {
+    title: "Corporate Finance Consultancy & Wealth Enhancement Services",
+    description:
+      "Professional corporate finance consultancy services to enhance your wealth and drive business growth. Expert financial solutions tailored to your needs.",
+    url: "https://exploraview.com",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://exploraview.com",
+  },
+};
 
 export default function HomePage() {
   const features = [

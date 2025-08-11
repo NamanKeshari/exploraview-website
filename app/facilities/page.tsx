@@ -10,6 +10,41 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Corporate Finance Consultancy Services & Facilities",
+  description:
+    "Comprehensive corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, cash credit, overdraft facilities, and financial planning services.",
+  keywords: [
+    "corporate finance consultancy services",
+    "corporate loans India",
+    "industrial project loans",
+    "machinery financing",
+    "business loan consultancy",
+    "home loan services",
+    "cash credit facility",
+    "overdraft services",
+    "loan against property",
+    "financial planning services",
+    "equipment financing",
+    "working capital solutions",
+    "term loan facility",
+    "balance transfer services",
+    "education loan planning",
+    "marriage financial planning",
+  ],
+  openGraph: {
+    title: "Corporate Finance Consultancy Services & Facilities - Exploraview",
+    description:
+      "Expert corporate finance consultancy services including corporate loans, industrial financing, machinery loans, business loans, and comprehensive financial planning solutions.",
+    url: "https://exploraview.com/facilities",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://exploraview.com/facilities",
+  },
+};
 
 export default function FacilitiesPage() {
   const services = [

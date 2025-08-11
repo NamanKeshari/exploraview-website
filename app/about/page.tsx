@@ -1,5 +1,34 @@
 import { Users, Award, Globe, Target } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Exploraview - Leading Corporate Finance Consultancy",
+  description:
+    "Learn about Exploraview Wealth Enhancement Services, a leading corporate finance consultancy with 15+ years of experience, serving 500+ clients with $2B+ assets managed and 98% client satisfaction.",
+  keywords: [
+    "about exploraview",
+    "corporate finance consultancy company",
+    "wealth enhancement services",
+    "financial consultancy experience",
+    "corporate finance experts",
+    "financial advisory team",
+    "business finance consultants",
+    "investment advisory services",
+    "financial planning experts",
+    "corporate finance leadership",
+  ],
+  openGraph: {
+    title: "About Exploraview - Leading Corporate Finance Consultancy",
+    description:
+      "Discover Exploraview Wealth Enhancement Services - your trusted partner in corporate finance with proven expertise, innovative solutions, and exceptional client results.",
+    url: "https://exploraview.com/about",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://exploraview.com/about",
+  },
+};
 
 export default function AboutPage() {
   const stats = [
