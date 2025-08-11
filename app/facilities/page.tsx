@@ -10,6 +10,41 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Corporate Finance Consultancy Services & Facilities",
+  description:
+    "Comprehensive corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, cash credit, overdraft facilities, and financial planning services.",
+  keywords: [
+    "corporate finance consultancy services",
+    "corporate loans India",
+    "industrial project loans",
+    "machinery financing",
+    "business loan consultancy",
+    "home loan services",
+    "cash credit facility",
+    "overdraft services",
+    "loan against property",
+    "financial planning services",
+    "equipment financing",
+    "working capital solutions",
+    "term loan facility",
+    "balance transfer services",
+    "education loan planning",
+    "marriage financial planning",
+  ],
+  openGraph: {
+    title: "Corporate Finance Consultancy Services & Facilities - Exploraview",
+    description:
+      "Expert corporate finance consultancy services including corporate loans, industrial financing, machinery loans, business loans, and comprehensive financial planning solutions.",
+    url: "https://exploraview.vercel.app/facilities",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://exploraview.vercel.app/facilities",
+  },
+};
 
 export default function FacilitiesPage() {
   const services = [
@@ -263,7 +298,8 @@ export default function FacilitiesPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="bg-blue-800/50 rounded-lg p-6">
               <h3 className="font-semibold text-yellow-400 mb-2">WhatsApp</h3>
-              <p className="text-lg">+91 7428320045</p>
+              <p className="text-lg">7428320045</p>
+              <p className="text-lg">9818524145</p>
             </div>
             <div className="bg-blue-800/50 rounded-lg p-6">
               <h3 className="font-semibold text-yellow-400 mb-2">Email</h3>
