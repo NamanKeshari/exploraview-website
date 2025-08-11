@@ -298,7 +298,7 @@ export default function FacilitiesPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="bg-blue-800/50 rounded-lg p-6">
               <h3 className="font-semibold text-yellow-400 mb-2">WhatsApp</h3>
-              <p className="text-lg">7428320045</p>
+              <p className="text-lg">+91 7428320045</p>
             </div>
             <div className="bg-blue-800/50 rounded-lg p-6">
               <h3 className="font-semibold text-yellow-400 mb-2">Email</h3>
