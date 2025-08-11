@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://exploraview.vercel.app"),
+  metadataBase: new URL("https://exploraview.com"),
   alternates: {
     canonical: "/",
   },
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
       "Exploraview Wealth Enhancement Services - Corporate Finance Consultancy",
     description:
       "Professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, and comprehensive financial planning solutions.",
-    url: "https://exploraview.vercel.app",
+    url: "https://exploraview.com",
     siteName: "Exploraview Wealth Enhancement Services",
     images: [
       {
@@ -120,9 +120,9 @@ export default function RootLayout({
               name: "Exploraview Wealth Enhancement Services",
               description:
                 "Professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, and financial planning.",
-              url: "https://exploraview.vercel.app",
-              logo: "https://exploraview.vercel.app/logo.png",
-              image: "https://exploraview.vercel.app/logo.png",
+              url: "https://exploraview.com",
+              logo: "https://exploraview.com/logo.png",
+              image: "https://exploraview.com/logo.png",
               telephone: "+91-7428320045",
               email: "exploraview.wes@gmail.com",
               address: {

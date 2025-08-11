@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     title: "Contact Exploraview - Corporate Finance Consultancy Services",
     description:
       "Get in touch with Exploraview for expert corporate finance consultancy services. Contact us for business loans, corporate loans, and comprehensive financial planning solutions.",
-    url: "https://exploraview.vercel.app/contact",
+    url: "https://exploraview.com/contact",
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://exploraview.vercel.app/contact",
+    canonical: "https://exploraview.com/contact",
   },
 };
 

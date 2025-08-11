@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     title: "Corporate Finance Consultancy Services & Facilities - Exploraview",
     description:
       "Expert corporate finance consultancy services including corporate loans, industrial financing, machinery loans, business loans, and comprehensive financial planning solutions.",
-    url: "https://exploraview.vercel.app/facilities",
+    url: "https://exploraview.com/facilities",
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://exploraview.vercel.app/facilities",
+    canonical: "https://exploraview.com/facilities",
   },
 };
 

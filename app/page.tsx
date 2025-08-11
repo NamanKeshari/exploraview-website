@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     title: "Corporate Finance Consultancy & Wealth Enhancement Services",
     description:
       "Professional corporate finance consultancy services to enhance your wealth and drive business growth. Expert financial solutions tailored to your needs.",
-    url: "https://exploraview.vercel.app",
+    url: "https://exploraview.com",
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://exploraview.vercel.app",
+    canonical: "https://exploraview.com",
   },
 };
 
