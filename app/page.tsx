@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Corporate Finance Consultancy & Wealth Enhancement Services",
   description:
-    "Exploraview offers professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, and comprehensive financial planning solutions.",
+    "ExploraView offers professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, and comprehensive financial planning solutions.",
   keywords: [
     "corporate finance consultancy",
     "wealth enhancement services",
@@ -95,7 +95,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">
-              Why Choose Exploraview?
+              Why Choose ExploraView?
             </h2>
             <p className="text-lg text-blue-600 max-w-2xl mx-auto">
               We combine deep industry expertise with innovative financial

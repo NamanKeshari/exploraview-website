@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); padding: 30px; text-align: center;">
             <h1 style="color: white; margin: 0; font-size: 28px;">New Contact Form Submission</h1>
-            <p style="color: #dbeafe; margin: 10px 0 0 0;">Exploraview Wealth Enhancement Services</p>
+            <p style="color: #dbeafe; margin: 10px 0 0 0;">ExploraView Wealth Enhancement Services</p>
           </div>
           
           <div style="background: #f8fafc; padding: 30px;">
@@ -57,7 +57,7 @@ export async function POST(request: NextRequest) {
           
           <div style="background: #1e3a8a; padding: 20px; text-align: center;">
             <p style="color: #dbeafe; margin: 0; font-size: 14px;">
-              This email was sent from the Exploraview contact form.
+              This email was sent from the ExploraView contact form.
             </p>
           </div>
         </div>

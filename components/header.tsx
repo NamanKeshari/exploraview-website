@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import { Menu, X } from 'lucide-react'
-import { useState } from 'react'
-import { Button } from '@/components/ui/button'
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 export default function Header() {
-  const pathname = usePathname()
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Facilities', href: '/facilities' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact Us', href: '/contact' },
-  ]
+    { name: "Home", href: "/" },
+    { name: "Facilities", href: "/facilities" },
+    { name: "About", href: "/about" },
+    { name: "Contact Us", href: "/contact" },
+  ];
 
   return (
     <header className="bg-white shadow-sm border-b">
@@ -24,15 +24,17 @@ export default function Header() {
           {/* Logo Section */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <img 
-                src="/logo.png" 
-                alt="Exploraview Logo" 
+              <img
+                src="/logo.png"
+                alt="ExploraView Logo"
                 className="h-12 w-12 mr-3"
               />
-              <span className="text-xl font-bold text-blue-900">Exploraview</span>
+              <span className="text-xl font-bold text-blue-900">
+                ExploraView
+              </span>
             </Link>
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navigation.map((item) => (
@@ -41,8 +43,8 @@ export default function Header() {
                 href={item.href}
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   pathname === item.href
-                    ? 'text-blue-900 border-b-2 border-yellow-500'
-                    : 'text-slate-600 hover:text-blue-900'
+                    ? "text-blue-900 border-b-2 border-yellow-500"
+                    : "text-slate-600 hover:text-blue-900"
                 }`}
               >
                 {item.name}
@@ -57,7 +59,11 @@ export default function Header() {
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </Button>
           </div>
         </div>
@@ -72,8 +78,8 @@ export default function Header() {
                   href={item.href}
                   className={`block px-3 py-2 text-base font-medium transition-colors ${
                     pathname === item.href
-                      ? 'text-blue-900 bg-yellow-50'
-                      : 'text-slate-600 hover:text-blue-900 hover:bg-yellow-50'
+                      ? "text-blue-900 bg-yellow-50"
+                      : "text-slate-600 hover:text-blue-900 hover:bg-yellow-50"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -85,5 +91,5 @@ export default function Header() {
         )}
       </div>
     </header>
-  )
+  );
 }

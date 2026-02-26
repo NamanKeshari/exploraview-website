@@ -10,11 +10,11 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <img
                 src="/logo.png"
-                alt="Exploraview Logo"
+                alt="ExploraView Logo"
                 className="h-12 w-12 mr-3"
               />
               <h3 className="text-2xl font-bold">
-                Exploraview Wealth Enhancement Services
+                ExploraView Wealth Enhancement Services
               </h3>
             </div>
             <p className="text-blue-100 mb-4">
@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="border-t border-blue-800 mt-8 pt-8 text-center">
           <p className="text-blue-200">
-            © 2021 Exploraview Wealth Enhancement Services. All rights reserved.
+            © 2021 ExploraView Wealth Enhancement Services. All rights reserved.
           </p>
         </div>
       </div>

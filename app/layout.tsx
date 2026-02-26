@@ -20,8 +20,8 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: {
     default:
-      "Exploraview Wealth Enhancement Services - Corporate Finance Consultancy",
-    template: "%s | Exploraview Wealth Enhancement Services",
+      "ExploraView Wealth Enhancement Services - Corporate Finance Consultancy",
+    template: "%s | ExploraView Wealth Enhancement Services",
   },
   description:
     "Professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, and financial planning. Expert wealth enhancement solutions.",
@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     "investment advisory",
     "exploraview",
   ],
-  authors: [{ name: "Exploraview Wealth Enhancement Services" }],
-  creator: "Exploraview Wealth Enhancement Services",
-  publisher: "Exploraview Wealth Enhancement Services",
+  authors: [{ name: "ExploraView Wealth Enhancement Services" }],
+  creator: "ExploraView Wealth Enhancement Services",
+  publisher: "ExploraView Wealth Enhancement Services",
   formatDetection: {
     email: false,
     address: false,
@@ -56,17 +56,17 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Exploraview Wealth Enhancement Services - Corporate Finance Consultancy",
+      "ExploraView Wealth Enhancement Services - Corporate Finance Consultancy",
     description:
       "Professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, and comprehensive financial planning solutions.",
     url: "https://exploraview.com",
-    siteName: "Exploraview Wealth Enhancement Services",
+    siteName: "ExploraView Wealth Enhancement Services",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Exploraview Wealth Enhancement Services Logo",
+        alt: "ExploraView Wealth Enhancement Services Logo",
       },
     ],
     locale: "en_US",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Exploraview Wealth Enhancement Services - Corporate Finance Consultancy",
+      "ExploraView Wealth Enhancement Services - Corporate Finance Consultancy",
     description:
       "Professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, and comprehensive financial planning solutions.",
     images: ["/logo.png"],
@@ -117,7 +117,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FinancialService",
-              name: "Exploraview Wealth Enhancement Services",
+              name: "ExploraView Wealth Enhancement Services",
               description:
                 "Professional corporate finance consultancy services including corporate loans, industrial project loans, machinery loans, business loans, home loans, and financial planning.",
               url: "https://exploraview.com",

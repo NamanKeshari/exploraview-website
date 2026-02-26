@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "marriage financial planning",
   ],
   openGraph: {
-    title: "Corporate Finance Consultancy Services & Facilities - Exploraview",
+    title: "Corporate Finance Consultancy Services & Facilities - ExploraView",
     description:
       "Expert corporate finance consultancy services including corporate loans, industrial financing, machinery loans, business loans, and comprehensive financial planning solutions.",
     url: "https://exploraview.com/facilities",
@@ -156,7 +156,7 @@ export default function FacilitiesPage() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <div className="flex justify-center mb-8">
-            <img src="/logo.png" alt="Exploraview Logo" className="h-20 w-20" />
+            <img src="/logo.png" alt="ExploraView Logo" className="h-20 w-20" />
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-4">
             Corporate Finance Consultancy Services
@@ -213,7 +213,7 @@ export default function FacilitiesPage() {
         <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-2xl p-8 lg:p-12 mb-20 text-white">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Why Choose Exploraview?
+              Why Choose ExploraView?
             </h2>
             <p className="text-xl text-blue-100">
               Your trusted partner for comprehensive financial solutions
