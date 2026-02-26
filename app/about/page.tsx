@@ -3,9 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Exploraview - Leading Corporate Finance Consultancy",
+  title: "About ExploraView - Leading Corporate Finance Consultancy",
   description:
-    "Learn about Exploraview Wealth Enhancement Services, a leading corporate finance consultancy with 15+ years of experience, serving 500+ clients with $2B+ assets managed and 98% client satisfaction.",
+    "Learn about ExploraView Wealth Enhancement Services, a leading corporate finance consultancy with 15+ years of experience, serving 500+ clients with $2B+ assets managed and 98% client satisfaction.",
   keywords: [
     "about exploraview",
     "corporate finance consultancy company",
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     "corporate finance leadership",
   ],
   openGraph: {
-    title: "About Exploraview - Leading Corporate Finance Consultancy",
+    title: "About ExploraView - Leading Corporate Finance Consultancy",
     description:
-      "Discover Exploraview Wealth Enhancement Services - your trusted partner in corporate finance with proven expertise, innovative solutions, and exceptional client results.",
+      "Discover ExploraView Wealth Enhancement Services - your trusted partner in corporate finance with proven expertise, innovative solutions, and exceptional client results.",
     url: "https://exploraview.com/about",
     images: ["/logo.png"],
   },
@@ -100,7 +100,7 @@ export default function AboutPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-blue-900 mb-6">
-            About Exploraview
+            About ExploraView
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Leading corporate finance consultancy dedicated to enhancing wealth
@@ -115,7 +115,7 @@ export default function AboutPage() {
             <div className="space-y-4 text-slate-600">
               <p>
                 Founded with a vision to transform the corporate finance
-                landscape, Exploraview Wealth Enhancement Services has been at
+                landscape, ExploraView Wealth Enhancement Services has been at
                 the forefront of financial innovation for over a decade. Our
                 journey began with a simple yet powerful mission: to provide
                 businesses with the strategic financial guidance they need to
